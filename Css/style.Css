@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div1{
+    width: 250px;
+    height: 100px;
+    background-color:  #B35864;
+
+    animation-name: change;
+    animation-duration: 3s;
+    
+    position: absolute;
+    top: 0;
+left: 0;
+
+}
+
+.div2{
+    width: 250px;
+    height: 100px;
+    background-color: #D08A78;
+    
+     position: absolute;
+     top: 100px;
+     right:0%;
+
+     animation-name: change;
+     animation-duration: 3s;
+    animation-delay: 3s;
+    
+
+}
+
+
+
+.div4{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(241, 99, 99);
+    
+     position: absolute;
+     top: 200px;
+     left:0%;
+
+     animation-name: change;
+     animation-duration: 3s;
+    animation-delay: 6s;
+    
+
+}
+
+.div5{
+    width: 250px;
+    height: 100px;
+    background-color: #D9CD97;
+    
+     position: absolute;
+     top: 300px;
+     right:0%;
+
+     animation-name: change;
+     animation-duration: 3s;
+    animation-delay: 9s;
+    
+
+}
+
+.div6{
+    width: 250px;
+    height: 100px;
+    background-color: #6A877F;
+    
+     position: absolute;
+     top: 400px;
+     left:0%;
+
+     animation-name: change;
+     animation-duration: 3s;
+    animation-delay: 12s;
+    
+
+}
+
+.div7{
+    width: 250px;
+    height: 100px;
+    background-color: #C0AC77;
+    
+     position: absolute;
+     top: 500px;
+     right:0%;
+
+     animation-name: change;
+     animation-duration: 3s;
+    animation-delay: 15s;
+    
+
+}
+
+.div8{
+    width: 250px;
+    height: 100px;
+    background-color:  #648C49;
+    
+     position: absolute;
+     top: 600px;
+     left:0%;
+
+     animation-name: change;
+     animation-duration: 3s;
+    animation-delay: 18s;
+    
+
+}
+
+.div9{
+    width: 250px;
+    height: 100px;
+    background-color:#177245;
+    position: absolute;
+    top: 700px;
+    right:0%;
+
+    animation-name: change;
+    animation-duration: 3s;
+   animation-delay: 21s;
+   
+}
+
+ @keyframes change{
+    0%{width: 0px;}
+     100%{width:1100px;} 
+    
+} 
